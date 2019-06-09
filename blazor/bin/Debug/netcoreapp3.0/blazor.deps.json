@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v3.0": {
       "blazor/1.0.0": {
         "dependencies": {
+          "HttpClientFactory": "1.0.1",
+          "Microsoft.NETCore.Platforms": "3.0.0-preview5.19224.8",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -310,6 +312,18 @@
           "blazor.dll": {}
         }
       },
+      "HttpClientFactory/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/HttpClientFactory.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/HttpClientFactory.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {},
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -1985,6 +1999,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "HttpClientFactory/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QASSAVBIK/gayd5eVq+BVYBjoqZJ8tuh3rGy8xX2pTwGeJ8R0Aal8P9tK/lEC2hrmgWMhrVTFAYxjP0+R3ffmw==",
+      "path": "httpclientfactory/1.0.1",
+      "hashPath": "httpclientfactory.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MEt1XzSndofi4WBoGaRcMZdy9rqNtZITVZev2PTtXizcNe4csoN7U638Q73M93I/LxroBAI1IB+6HQOuklkKrw==",
+      "path": "microsoft.netcore.platforms/3.0.0-preview5.19224.8",
+      "hashPath": "microsoft.netcore.platforms.3.0.0-preview5.19224.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
       "type": "referenceassembly",

@@ -43,3 +43,6 @@
 /Users/magdi/Documents/Projects/wepApiAuth/blazor/obj/Debug/netcoreapp3.0/blazor.dll
 /Users/magdi/Documents/Projects/wepApiAuth/blazor/obj/Debug/netcoreapp3.0/blazor.pdb
 /Users/magdi/Documents/Projects/wepApiAuth/blazor/obj/Debug/netcoreapp3.0/blazor.csproj.CopyComplete
+/Users/magdi/Documents/Projects/wepApiAuth/blazor/bin/Debug/netcoreapp3.0/HttpClientFactory.dll
+/Users/magdi/Documents/Projects/wepApiAuth/blazor/obj/Debug/netcoreapp3.0/RazorDeclaration/Pages/AppUser.razor.g.cs
+/Users/magdi/Documents/Projects/wepApiAuth/blazor/obj/Debug/netcoreapp3.0/Razor/Pages/AppUser.razor.g.cs

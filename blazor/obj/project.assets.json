@@ -1,11 +1,64 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "HttpClientFactory/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/HttpClientFactory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/HttpClientFactory.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HttpClientFactory/1.0.1": {
+      "sha512": "QASSAVBIK/gayd5eVq+BVYBjoqZJ8tuh3rGy8xX2pTwGeJ8R0Aal8P9tK/lEC2hrmgWMhrVTFAYxjP0+R3ffmw==",
+      "type": "package",
+      "path": "httpclientfactory/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "httpclientfactory.1.0.1.nupkg.sha512",
+        "httpclientfactory.nuspec",
+        "lib/net45/HttpClientFactory.dll",
+        "lib/netstandard2.0/HttpClientFactory.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.0.0-preview5.19224.8": {
+      "sha512": "MEt1XzSndofi4WBoGaRcMZdy9rqNtZITVZev2PTtXizcNe4csoN7U638Q73M93I/LxroBAI1IB+6HQOuklkKrw==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.0.0-preview5.19224.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.0.0-preview5.19224.8.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "HttpClientFactory >= 1.0.1",
+      "Microsoft.NETCore.Platforms >= 3.0.0-preview5.19224.8"
+    ]
   },
   "packageFolders": {
     "/Users/magdi/.nuget/packages/": {},
@@ -51,6 +104,18 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "dependencies": {
+          "HttpClientFactory": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
+          "Microsoft.NETCore.Platforms": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.0.0-preview5.19224.8, )",
+            "autoReferenced": true
+          }
+        },
         "imports": [
           "net461"
         ],

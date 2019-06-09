@@ -447,6 +447,81 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "blazor.Pages.AppUser",
+        "AssemblyName": "blazor",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "TagMatchingRules": [
+          {
+            "TagName": "AppUser",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ApplicationUser",
+            "TypeName": "blazor.Models.ApplicationUserModel",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "ApplicationUser"
+            }
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor.Pages.AppUser"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazor.Pages.AppUser",
+        "AssemblyName": "blazor",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazor.Pages.AppUser",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ApplicationUser",
+            "TypeName": "blazor.Models.ApplicationUserModel",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "ApplicationUser"
+            }
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazor.Pages.AppUser",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "blazor.Pages.Counter",
         "AssemblyName": "blazor",
         "Documentation": null,
@@ -583,81 +658,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazor.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazor.Pages.AppUser",
-        "AssemblyName": "blazor",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "TagMatchingRules": [
-          {
-            "TagName": "AppUser",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ApplicationUser",
-            "TypeName": "blazor.Models.ApplicationUserModel",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "ApplicationUser"
-            }
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor.Pages.AppUser"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazor.Pages.AppUser",
-        "AssemblyName": "blazor",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazor.Pages.AppUser",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ApplicationUser",
-            "TypeName": "blazor.Models.ApplicationUserModel",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "ApplicationUser"
-            }
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazor.Pages.AppUser",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

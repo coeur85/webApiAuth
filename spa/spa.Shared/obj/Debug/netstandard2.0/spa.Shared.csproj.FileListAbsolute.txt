@@ -1,0 +1,9 @@
+/Users/magdi/Documents/Projects/wepApiAuth/spa/spa.Shared/bin/Debug/netstandard2.0/spa.Shared.deps.json
+/Users/magdi/Documents/Projects/wepApiAuth/spa/spa.Shared/bin/Debug/netstandard2.0/spa.Shared.dll
+/Users/magdi/Documents/Projects/wepApiAuth/spa/spa.Shared/bin/Debug/netstandard2.0/spa.Shared.pdb
+/Users/magdi/Documents/Projects/wepApiAuth/spa/spa.Shared/obj/Debug/netstandard2.0/spa.Shared.csprojAssemblyReference.cache
+/Users/magdi/Documents/Projects/wepApiAuth/spa/spa.Shared/obj/Debug/netstandard2.0/spa.Shared.csproj.CoreCompileInputs.cache
+/Users/magdi/Documents/Projects/wepApiAuth/spa/spa.Shared/obj/Debug/netstandard2.0/spa.Shared.AssemblyInfoInputs.cache
+/Users/magdi/Documents/Projects/wepApiAuth/spa/spa.Shared/obj/Debug/netstandard2.0/spa.Shared.AssemblyInfo.cs
+/Users/magdi/Documents/Projects/wepApiAuth/spa/spa.Shared/obj/Debug/netstandard2.0/spa.Shared.dll
+/Users/magdi/Documents/Projects/wepApiAuth/spa/spa.Shared/obj/Debug/netstandard2.0/spa.Shared.pdb
